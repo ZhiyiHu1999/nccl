@@ -253,21 +253,21 @@ export NCCL_DEBUG_SUBSYS=INIT,GRAPH,NET,COLL
 
 ### 支持的架构
 
+- NVIDIA Pascal (P100) - SM 6.0
+- NVIDIA Volta (V100) - SM 7.0
+- NVIDIA Ampere (A100, A30) - SM 8.0, 8.6
+- NVIDIA Ada (RTX 40 系列) - SM 8.9
 - NVIDIA Hopper (H100, H200) - SM 9.0
 - NVIDIA Blackwell (B100, B200, GB200) - SM 10.0
-- NVIDIA Ada (RTX 40 系列) - SM 8.9
-- NVIDIA Ampere (A100, A30) - SM 8.0, 8.6
-- NVIDIA Volta (V100) - SM 7.0
-- NVIDIA Pascal (P100) - SM 6.0
 
 ### 按代的 NVLink 带宽
 
-- Blackwell (SM 10.0): 每条链路 40.1 GB/s
-- Hopper (SM 9.0): 每条链路 20.6 GB/s
+- Pascal (SM 6.0): 每条链路 18.0 GB/s
+- Volta (SM 7.0): 每条链路 20.0 GB/s
 - Ampere (SM 8.0): 每条链路 20.0 GB/s
 - Ampere (SM 8.6): 每条链路 12.0 GB/s
-- Volta (SM 7.0): 每条链路 20.0 GB/s
-- Pascal (SM 6.0): 每条链路 18.0 GB/s
+- Hopper (SM 9.0): 每条链路 20.6 GB/s
+- Blackwell (SM 10.0): 每条链路 40.1 GB/s
 
 ## 参考
 

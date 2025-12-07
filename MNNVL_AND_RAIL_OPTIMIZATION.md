@@ -253,21 +253,21 @@ export NCCL_DEBUG_SUBSYS=INIT,GRAPH,NET,COLL
 
 ### Supported Architectures
 
+- NVIDIA Pascal (P100) - SM 6.0
+- NVIDIA Volta (V100) - SM 7.0
+- NVIDIA Ampere (A100, A30) - SM 8.0, 8.6
+- NVIDIA Ada (RTX 40-series) - SM 8.9
 - NVIDIA Hopper (H100, H200) - SM 9.0
 - NVIDIA Blackwell (B100, B200, GB200) - SM 10.0
-- NVIDIA Ada (RTX 40-series) - SM 8.9
-- NVIDIA Ampere (A100, A30) - SM 8.0, 8.6
-- NVIDIA Volta (V100) - SM 7.0
-- NVIDIA Pascal (P100) - SM 6.0
 
 ### NVLink Bandwidth by Generation
 
-- Blackwell (SM 10.0): 40.1 GB/s per link
-- Hopper (SM 9.0): 20.6 GB/s per link
+- Pascal (SM 6.0): 18.0 GB/s per link
+- Volta (SM 7.0): 20.0 GB/s per link
 - Ampere (SM 8.0): 20.0 GB/s per link
 - Ampere (SM 8.6): 12.0 GB/s per link
-- Volta (SM 7.0): 20.0 GB/s per link
-- Pascal (SM 6.0): 18.0 GB/s per link
+- Hopper (SM 9.0): 20.6 GB/s per link
+- Blackwell (SM 10.0): 40.1 GB/s per link
 
 ## References
 

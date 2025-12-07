@@ -11,6 +11,10 @@ The `mnnvl_rail_optimization_example.sh` script provides practical examples of d
 Simply execute the script to see all example configurations:
 
 ```bash
+# Make the script executable (if not already)
+chmod +x mnnvl_rail_optimization_example.sh
+
+# Run the script
 ./mnnvl_rail_optimization_example.sh
 ```
 
@@ -87,18 +91,18 @@ These features are beneficial for:
 
 ## Supported Architectures
 
-- NVIDIA Blackwell (B100, B200, GB200) - SM 10.0
-- NVIDIA Hopper (H100, H200) - SM 9.0
-- NVIDIA Ada (RTX 40-series) - SM 8.9
-- NVIDIA Ampere (A100, A30) - SM 8.0, 8.6
-- NVIDIA Volta (V100) - SM 7.0
 - NVIDIA Pascal (P100) - SM 6.0
+- NVIDIA Volta (V100) - SM 7.0
+- NVIDIA Ampere (A100, A30) - SM 8.0, 8.6
+- NVIDIA Ada (RTX 40-series) - SM 8.9
+- NVIDIA Hopper (H100, H200) - SM 9.0
+- NVIDIA Blackwell (B100, B200, GB200) - SM 10.0
 
 ## Further Reading
 
 For comprehensive documentation, see:
-- [MNNVL_AND_RAIL_OPTIMIZATION.md](../../MNNVL_AND_RAIL_OPTIMIZATION.md) - English version
-- [MNNVL_AND_RAIL_OPTIMIZATION_CN.md](../../MNNVL_AND_RAIL_OPTIMIZATION_CN.md) - Chinese version
+- [MNNVL_AND_RAIL_OPTIMIZATION.md](../MNNVL_AND_RAIL_OPTIMIZATION.md) - English version
+- [MNNVL_AND_RAIL_OPTIMIZATION_CN.md](../MNNVL_AND_RAIL_OPTIMIZATION_CN.md) - Chinese version
 
 ## Source Code References
 
