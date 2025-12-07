@@ -10,7 +10,7 @@ For more information on NCCL usage, please refer to the [NCCL documentation](htt
 
 ### Advanced Features
 
-- **Multi-Node NVLink (MNNVL) and Rail Optimization**: For information about cross-machine topology awareness and rail optimization features, see [MNNVL_AND_RAIL_OPTIMIZATION.md](MNNVL_AND_RAIL_OPTIMIZATION.md) ([中文版](MNNVL_AND_RAIL_OPTIMIZATION_CN.md))
+- **Multi-Node NVLink (MNNVL) and Rail Optimization**: [简洁回答](简洁回答.md) | [FEATURES_SUMMARY](FEATURES_SUMMARY.md) | [详细文档](MNNVL_AND_RAIL_OPTIMIZATION.md) ([中文版](MNNVL_AND_RAIL_OPTIMIZATION_CN.md))
 
 ## Build
 
